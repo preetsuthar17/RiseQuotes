@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random quote generate</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="container">
+      <p id="quote_text"></p>
+      <div id="image-container">
+        <img id="generated-image" alt="Generated Image" />
+      </div>
+      <span>
+        <button
+          id="generate-button"
+          class="generate_quote_btn"
+          onclick="show_quote()"
+        >
+          Generate Quote
+        </button>
+        <button id="download-button" class="generate_quote_btn">
+          Download Quote
+        </button>
+      </span>
+    </div>
+  </body>
+
+  <script src="./script.js"></script>
+</html>
