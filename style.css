@@ -30,7 +30,7 @@ body {
 .generate_quote_btn {
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   background-color: transparent;
   color: #cfcfcf;
   border: 2px solid #ffffff44;
@@ -43,6 +43,7 @@ body {
 
 .generate_quote_btn:hover {
   border: 2px solid #ffffffb7;
+  color: #fff;
   background-color: #ffffff11;
 }
 
